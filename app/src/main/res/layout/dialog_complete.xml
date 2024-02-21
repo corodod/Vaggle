@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/dialogfon"
+    android:layout_gravity="center"
+    android:scaleType="centerCrop"
+    android:background="#56AC73"
+    android:layout_margin="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="40dp"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:id="@+id/textdescription"
+            android:text="Congratulation!\n You pass the game!"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/black"
+            android:layout_weight="30"
+            android:layout_marginTop="20dp">
+        </TextView>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/button_select_level"
+            android:text="@string/button_text_select_level"
+            android:fontFamily="sans-serif-medium"
+            android:layout_marginTop="2dp">
+        </Button>
+
+    </LinearLayout>
+
+</LinearLayout>
